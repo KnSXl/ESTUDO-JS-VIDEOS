@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png" type="image/x-icon">
+    <title>6º Aula</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: gray;
+            color: white;
+            font: normal 15pt arial;
+        }
+
+        h1{
+            color: yellow; /* Isso é um comentario */
+        }
+
+        p{
+            font: normal 20pt arial;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1>Olá, Mundo!</h1><!-- Isso é um comentario -->
+    <p>Já me livrei da maldição</p><br>
+    <br>
+
+    <script>
+        /* 
+        alert("Olá, Mundo!"); // Faz um alert no navegador
+        confirm("Esta gostando de JS?"); // Faz uma pergunta se esta gostando.
+        prompt("Qual o seu nome?") // Vai perguntar o seu nome. 
+        */
+
+
+        // --------------------------------------------------
+        
+
+        /*
+        // Variáveis
+        let idade = 25;
+        let altura = 1.75;
+        let temCarteira = true;
+        let nome = "João";
+        let sexo = 'M';
+
+        // Impressão no console
+        console.log(idade);
+        console.log(altura);
+        console.log(temCarteira);
+        console.log(nome);
+        console.log(sexo);
+        */
+
+
+        // --------------------------------------------------
+
+
+        /*
+        let nome = prompt("Qual o seu nome?") // Vai perguntar o seu nome. 
+        alert("É um prazer te conhecer, " + nome + "!") // Concatenação.
+        */
+
+
+        // --------------------------------------------------
+        
+
+        // ESPECIFICAR TIPO (NUMBER = NUMERO)
+        /*
+
+        // - Solicita dois números ao usuário, os converte para o tipo Number e realiza a soma.
+        // - Usa alert para exibir o resultado da soma.
+
+        let n1 = Number(prompt("Digite um número: "))
+        let n2 = Number(prompt("Digite outro número: "))
+        let s = n1 + n2
+        alert("A soma dos valores é: " + s)
+        // (number + number) para adição
+        // (string + string) para concatenação
+        */
+
+
+        // --------------------------------------------------
+
+
+        // TRANSFORMAR NUMBER EM STRINGS(MÉTODO)
+        /*
+        let n1 = Number(prompt("Digite um número: "))
+        let n2 = Number(prompt("Digite outro número: "))
+        let s = n1 + n2
+        alert("A soma dos valores é: " + String(s))
+        // (number + number) para adição
+        // (string + string) para concatenação
+        */
+        
+
+        // --------------------------------------------------
+
+
+        // EXEMPLO DE CÓDIGO TEMPLATE STRING
+        /*
+        let nome = "Kauã"
+        undefined
+        let idade = 17
+        undefined
+        let nota = 10.0
+        undefined
+
+        // MODELO: `O aluno ${nome} com idade de ${idade} anos, tirou a nota ${nota}`
+        // RESULTADO: O aluno Kauã com idade de 17 anos, tirou a nota 10
+       */
+
+
+       // --------------------------------------------------
+
+
+        // MODELO USANDO TEMPLATE STRING
+        /*
+        let n1 = Number(prompt("Digite um número: "))
+        let n2 = Number(prompt("Digite outro número: "))
+        let s = n1 + n2
+        alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
+        // (number + number) para adição
+        // (string + string) para concatenação
+        */
+
+        
+        // --------------------------------------------------
+
+
+        // COMANDOS QUE ESPECIFICAS OU ALTERAM FORMATAÇÃO DA STRING
+        /*
+        s.length // Quantos caracteres a string tem
+        s.toUpperCase() // Tudo para 'MAIÚSCULAS'
+        s.toLowerCase() // Tudo para 'minúsculas'
+        */
+
+        
+        // --------------------------------------------------
+
+
+        // APLICA COMANDOS QUE ESPECIFICAS OU ALTERAM FORMATAÇÃO DA STRING E MOSTRA NO HTML
+        /*
+        let nome = prompt("Qual o seu nome?")
+        document.write(`<p>Olá, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras.</p><br/>
+        <br/>`)
+        
+        document.write(`<p><strong>${nome}</strong>! Seu nome em MAIÚSCULO fica: ${nome.toUpperCase()}</p><br/>
+        <br/>`)
+        
+        document.write(`<p><strong>${nome}</strong>! Seu nome em minúsculo fica: ${nome.toLowerCase()}</p><br/>
+        <br/>`)
+        */
+
+
+        // --------------------------------------------------
+        
+       
+        // MÉTODOS PARA FORMATAR UM NÚMERO EM JAVASCRIPT
+        /*
+        let n1 = 1545.5 // Declaração de Variável
+        n1 = 1545.5 // Exibição de Valor
+        n1.toFixed(2) = '1545.50' // Utiliza o método toFixed(2) para limitar o número de casas decimais para 2
+        n1.toFixed(2).replace('.', ',') = '1545,50' // Usa o método replace('.', ',') para substituir o ponto por vírgula.
+        n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) = 'R$ 1.545,50' // Aplica o método toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) para formatar como moeda brasileira.
+        n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}) = 'US$ 1.545,50' // Aplica o método toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}) para formatar como moeda americana (dólar).
+        */
+
+    </script>
+</body>
+
+</html>
