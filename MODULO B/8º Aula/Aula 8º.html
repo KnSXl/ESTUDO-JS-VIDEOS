@@ -30,7 +30,146 @@
     
 
     <script>
-        /* PROXIMA AULA... */
+
+        // ORDEM DE PRECEDÊNCIA
+
+        /*
+        (), **, / (PRIMEIROS)
+        >, <, >= (SEGUNDOS)
+        ! (TERCEIRO)
+        && (QUARTO)
+        || (QUINTO)
+        */  
+
+        // OPERADORE DE RELACIONAIS
+
+        // > MAIOR
+        // < MENOR
+        // >= MAIOR OU IGUAL
+        // <= MENOR OU IGUAL
+        // == IGUAL
+        // != DIFERENTE OU IGUAL
+            
+        /*
+            5 > 2 // true
+            7 < 4 // false
+            8 >= 8 // true
+            9 <= 7 // false
+            5 == 5 // true
+            4 != 4 // false
+
+            let preco = 200
+            let idade = 17
+            let curso = "JavaScript"
+            let n1 = 5
+            let n2 = 10
+
+            preco >= 200.50 // false
+            idade < 18 // true
+            curso == "JavaScript" // true
+            n1 != n2 // true
+        */
+
+
+        // --------------------------------------------------
+
+
+        // OPERADORE DE IDENTIDADE
+
+        /*
+            5 == 5 // true (IGUAIS PORQUE NÃO EXPECIFICAÇÃO DE TIPOS)
+            5 == "5" // true (IGUAIS PORQUE NÃO EXPECIFICAÇÃO DE TIPOS)
+            5 === "5" // false (IGUAIS PORQUE TEM EXPECIFICAÇÃO DE TIPOS)
+            5 === 5 // true (IGUAIS PORQUE SÃO DO MESMO TIPOS)
+        */
+
+
+        // --------------------------------------------------
+
+
+        // OPERADORES LÓGICOS
+
+        // ! NEGAÇÃO / "NÃO"
+        // && CONJULÇÃO / "E" LÓGICO
+        // || DISJUNÇÃO / "OU" LÓGICO
+
+        /*
+            let a = 5
+            let b = 8
+
+            true && false // false
+            true && true // true
+            false || false // false
+            true || false // true
+            true || true // true
+            a > b && b % 2 == 0 // false
+            a <= b || b / 2 == 2 // true
+        */
+
+        // PRIMEIRO O ! NÃO
+        // SEGUNDO O && E
+        // TERCEIRO O || OU
+
+        /* EXEMPLOS
+
+            let idade = 17
+            let estado = "RS"
+            let salario = 1400.00
+            let sexo = "M"
+
+            idade >= 15 && idade <= 17 // true
+            estado == "RJ" || estado == "SP" // false
+            estado == "RS" || estado == "SP" // true
+            salario > 1500 && sexo != "M" // false
+        */
+
+
+        // --------------------------------------------------
+
+
+        // TERNÁRIO
+
+        // ? 
+        // : 
+
+        // Teste ? True : False
+        // Média >= 7.0 ? "Aprovado" : "Reprovado"
+
+        // EXEMPLOS
+         
+        /*
+            let media = 6
+            media > 7 ? "APROVADO" : "REPROVADO"
+            'REPROVADO'
+
+            media += 2
+            8
+
+            media > 7 ? "APROVADO" : "REPROVADO"
+            'APROVADO'
+        */
+
+
+        /*
+            let x = 8
+            let res = x % 2 == 0 ? 5 : 9
+
+            x = 8
+            res = 5
+        */
+
+
+        /* 
+            let idade = 17
+            let r = idade >= 18 ? "MAIOR" : "MENOR"
+
+            idade
+            17
+
+            r
+            "MENOR"
+        */
+ 
     </script>
 </body>
 </html>
