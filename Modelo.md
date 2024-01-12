@@ -22,3 +22,5 @@
 **4.** ...
 
 // --------------------------------------------------
+
+Elabore cinco atividades para que eu possa realizar utilizando como referência o conteúdo mencionado: 
