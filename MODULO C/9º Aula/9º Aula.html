@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9º Aula</title>
+    <style>
+        body{
+            background-color: yellow;
+            color: black;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudo DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Apredendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div id="msg" class="msg" name="msg">Clique em mim</div>
+
+    <script>
+        // METODOS DE ACESSO DO (DOM)
+
+        // Por Marca (getElementsByTagName())
+        // Por ID (getElementById)
+        // por Nome (getElementsByName)
+        // por Classe (getElementsByClassName)
+        // por Seletor /*(querySelector() -> singular
+        //              querySelectorAll() -> plural)*/
+
+
+
+        // --------------------------------------------------
+
+        // ALGUNS EXEMPLOS DE DOM
+
+        // window.document.write("Olá, mundo")
+        // window.document.write(window.document.charset)
+        // window.document.write(window.navigator.appName)
+        // window.document.write(window.document.URL)
+    
+
+
+        // --------------------------------------------------
+
+
+
+        // USANDO getElementsByTagName()
+
+            /* let corpo = window.document.body // -> cria uma variavel do body do html
+
+            let p1 = window.document.getElementsByTagName("p")[1] // -> número dentro do conchetes determina qual tag vem primeiro
+
+            window.document.write(p1.innerText) ou // -> InnerText puxa só o texto escrito, ja InnerHTML puxa o html puro
+            window.document.write("Esta escrito assim: " + p1.innerText)
+
+            p1.style.color = "blue" // -> muda a cor do <p> selecionado usando DOM
+            corpo.style.background = "orange" // -> muda a cor do fundo usando DOM
+
+            document.write(p1.innerText) // -> InnerText puxa só o texto escrito, ja InnerHTML puxa o html puro
+            window.alert(p1.innerHTML) // -> InnerText puxa só o texto escrito, ja InnerHTML puxa o html puro */
+
+
+
+        // --------------------------------------------------
+
+        
+
+        // USANDO getElementById()
+
+            /* let d = window.document.getElementById("msg")
+            d.style.background = "purple"
+            // d.innerText = "Estou aguardando..."
+            document.getElementById('msg').innerText = "MODIFICANDO..." */
+
+
+
+        // --------------------------------------------------
+
+
+
+        // USANDO getElementsByName()
+
+            /*  let d = window.document.getElementsByName("msg")[0]
+            d.innerText = "Olá " */
+
+
+
+        // --------------------------------------------------
+
+
+
+        // USANDO querySelector()
+
+            /* let d = window.document.querySelector("div.msg")
+            d.style.background = "white"
+            d.style.background = "red" */
+
+    </script>
+</body>
+</html>

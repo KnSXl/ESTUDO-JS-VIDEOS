@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Configuração da codificação de caracteres e da viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Inclusão do arquivo de estilo externo -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Título da página -->
+    <title>Exercicio 2</title>
+</head>
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+
+    <!-- Seção principal da página -->
+    <section>
+        <!-- Entrada para o ano de nascimento -->
+        <p>Ano de nascimento: 
+            <input type="number" name="txtano" id="txtano" min="0">
+        </p>
+
+        <!-- Entrada para o sexo -->
+        <p>
+            Sexo:
+            <input type="radio" name="radsexo" id="masculino" checked>
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="radsexo" id="feminino">
+            <label for="feminino">Feminino</label>
+        </p>
+
+        <!-- Botão de verificação que chama a função JavaScript "verificar()" -->
+        <p>
+            <input type="button" value="Verificador" onclick="verificar()">
+        </p>
+
+        <!-- Resultado da verificação exibido aqui -->
+        <div id="resultado">
+           
+        </div>
+    </section>
+
+    <!-- Rodapé da página -->
+    <footer>
+        <p>&copy; KnS</p>
+    </footer>
+
+    <!-- Inclusão do script JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
