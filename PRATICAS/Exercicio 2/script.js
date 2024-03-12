@@ -34,7 +34,7 @@ function verificar() {
             
             // Com base na idade, atribui uma imagem correspondente
             if (idade >= 0 && idade < 10) {
-                imagem.setAttribute('src', './images/crianca-homem.jpg');
+                imagem.setAttribute('src', './images/criança-homem.jpg');
             } else if (idade < 21){
                 imagem.setAttribute('src', './images/jovem-homem.jpg');
             } else if (idade < 50) {
@@ -50,7 +50,7 @@ function verificar() {
 
             // Com base na idade, atribui uma imagem correspondente
             if (idade >= 0 && idade < 10) {
-                imagem.setAttribute('src', './images/crianca-mulher.jpg');
+                imagem.setAttribute('src', './images/criança-mulher.jpg');
             } else if (idade < 21){
                 imagem.setAttribute('src', './images/jovem-mulher.jpg');
             } else if (idade < 50) {
