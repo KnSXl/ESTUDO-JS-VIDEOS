@@ -11,7 +11,7 @@ function carregar() {
     // Escolhe a imagem e a cor de fundo com base na hora do dia
     if (hora < 12) {
         // Se é de manhã (antes das 12:00), mostra imagem da manhã e fundo azul claro
-        imagem.src = "./images/manha.jpg";
+        imagem.src = "./images/manhã.jpg";
         document.body.style.background = "skyblue";
     } else if (hora < 18) {
         // Se é de tarde (entre 12:00 e 18:00), mostra imagem da tarde e fundo laranja
