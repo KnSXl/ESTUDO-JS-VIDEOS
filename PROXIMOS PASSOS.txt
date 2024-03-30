@@ -1,9 +1,0 @@
-Daqui pra frente 
-
-functions
-objetos
-modularização
-RegEx
-JSON
-AJAX
-NODE JS
